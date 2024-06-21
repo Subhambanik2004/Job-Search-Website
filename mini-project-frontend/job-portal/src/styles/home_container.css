@@ -1,0 +1,53 @@
+
+/* Add CSS for Home component here */
+
+.home-container {
+    background: url("c:\Users\Lenovo\Desktop\mini-project1\mini-project-frontend\job-portal\src\styles\asset\homecontainer-bg.jpg") rgba(0, 0, 0, 0.7) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: color;
+  }
+  
+  .home-container .home {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-container .home form {
+    background-color: var(--white);
+    width: 50rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home-container .home form h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+  
+  .home-container .home form p {
+    text-align: left;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    padding-top: 1rem;
+  }
+  
+  .home-container .home form p span {
+    color: var(--red);
+  }
+  
+  .home-container .home form .input {
+    width: 100%;
+    border-radius: 5rem;
+    margin: 1rem 0;
+    background-color: var(--light-bg);
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+  }

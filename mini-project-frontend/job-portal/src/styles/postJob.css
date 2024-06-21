@@ -1,0 +1,111 @@
+.post-job-container{
+    background: url("c:\Users\Lenovo\Desktop\mini-project1\mini-project-frontend\job-portal\src\styles\asset\homecontainer-bg.jpg") rgba(0, 0, 0, 0.7) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: color;
+}
+
+.post-job-container .box{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    
+}
+
+.post-job-container .box h2{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.post-job-container form{
+    background-color: var(--white);
+    width: 50rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Additional CSS for the post job component */
+
+/* Styling for input fields */
+.post-job-container form input[type="text"],
+.post-job-container form input[type="email"],
+.post-job-container form select {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Styling for submit button */
+.post-job-container form input[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-job-container form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for text area */
+.post-job-container form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Styling for labels */
+.post-job-container form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* Styling for error messages */
+.post-job-container form .error-message {
+    color: red;
+    margin-top: 0.5rem;
+}
+
+/* Styling for success message */
+.post-job-container form .success-message {
+    color: green;
+    margin-top: 0.5rem;
+}
+
+/* Styling for form container */
+.post-job-container form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styling for form container background */
+.post-job-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

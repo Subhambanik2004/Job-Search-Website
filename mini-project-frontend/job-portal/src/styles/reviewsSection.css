@@ -1,0 +1,107 @@
+
+.section-title{
+    border-top: 1rem solid var(--main-color);
+    border-bottom: 1rem solid var(--main-color);
+    background-color: var(--black);
+    color: var(--white);
+    text-align : center;
+    padding: 6rem 2rem;
+    font-size: 6rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.reviews .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,35rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.reviews .box-container.box{
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.reviews.box-container.box.stars{
+    margin-bottom: 1.5rem;
+}
+
+.reviews.box-container.box.stars i{
+    color:var(--main-color);
+    font-size: 1.8rem;
+}
+
+.reviews.box-container.box.stars .title{
+    text-transform: capitalize;
+    color: var(--black);
+    font-size: 2rem;
+    text-align: right;
+}
+
+.reviews.box-container.box.p{
+    text-align: right;
+    font-size: 4rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.reviews.box-container.box.user{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.reviews.box-container.box.user img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews.box-container.box.user h3{
+    font-size: 2rem !important;
+    color: var(--black);
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+}
+
+.reviews.box-container.box.user span{
+    color: var(--light-color);
+    font-size: 1.6rem;
+}
+.reviewBox{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+    border-radius: 5rem;
+    border: var(--border);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.review-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    resize: vertical;
+    /* Add other input styles */
+  }
+.review-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  
+}  
+

@@ -1,0 +1,93 @@
+.contact .box-container {
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    /* Adjust as needed */
+
+}
+
+.contact .box-container .box {
+    width: 30%;
+    background-color: var(--white);
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.contact .box-container .box i {
+    height: 4.5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact .box-container .box a {
+    display: block;
+    padding-top: .5rem;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    line-height: 1.5;
+}
+
+.contact form {
+    margin-top: 2rem;
+    background-color: grey;
+    border: var(--white);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact form h3 {
+    font-size: 2.5rem;
+    color:black;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.contact form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+}
+
+.contact form .flex .box {
+    flex: 1 1 40rem;
+}
+
+.contact form .input {
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1.4rem;
+    color: var(--black);
+    font-size: 1.8rem;
+    background-color: var(--light-bg);
+    margin: 1rem 0;
+}
+
+.contact form p {
+    text-align: left;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    color: black;;
+}
+
+.contact form p span {
+    color: var(--red);
+}
+
+.contact form textarea {
+    height: 15rem;
+    resize: both;
+}
+
+/* form .flex .box p() */
