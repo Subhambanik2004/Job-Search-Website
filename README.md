@@ -1,5 +1,5 @@
-Job Search Application
-Overview
+#Job Search Application
+##Overview
 This Job Search Application is a full-stack web application that allows users to search for jobs, post job listings, and leave reviews. It provides a secure registration and login system, and users can also contact the site administrators via a contact form. The backend is built with Node.js and Express.js, while the frontend is developed using React.
 
 
